@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jiuyescm.jydemo.mapper.UserAddressMapper">
+    <insert id="addUserAddress" parameterType="com.jiuyescm.jydemo.entity.UserAddressEntity" keyProperty="id" useGeneratedKeys="true">
+        insert into user_address(user_id,address) values(#{userId},#{address})
+    </insert>
+</mapper>
