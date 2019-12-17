@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/boot-dubbo/boot-dubbo.iml" filepath="$PROJECT_DIR$/boot-dubbo/boot-dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jydemo.iml" filepath="$PROJECT_DIR$/jydemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jydemo-rest/jydemo-rest.iml" filepath="$PROJECT_DIR$/jydemo-rest/jydemo-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jydemo-service/jydemo-service.iml" filepath="$PROJECT_DIR$/jydemo-service/jydemo-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/websocket/websocket.iml" filepath="$PROJECT_DIR$/websocket/websocket.iml" />
     </modules>
