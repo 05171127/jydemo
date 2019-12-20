@@ -1,4 +1,6 @@
 # jydemo
+    Java基础
+        注解
     Spring
         spring bean
             spring bean怎么解决循环依赖的问题
