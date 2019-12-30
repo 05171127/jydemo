@@ -14,12 +14,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="boot-dubbo" target="1.5" />
+      <module name="boot-dubbo" target="1.8" />
       <module name="jydemo" target="1.8" />
-      <module name="jydemo-rest" target="1.5" />
+      <module name="jydemo-rest" target="1.8" />
       <module name="jydemo-service" target="1.8" />
       <module name="spring" target="1.8" />
-      <module name="websocket" target="1.5" />
+      <module name="websocket" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

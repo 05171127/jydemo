@@ -11,5 +11,6 @@ public class ApplicationTest {
         System.out.println(applicationContext.getBean("beanA"));
         System.out.println(applicationContext.getBean("beanB"));
         System.out.println(applicationContext.getBean("beanC"));
+
     }
 }
