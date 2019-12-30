@@ -6,15 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jydemo-service" />
-        <module name="jydemo-rest" />
         <module name="websocket" />
+        <module name="jydemo-rest" />
+        <module name="jydemo-service" />
+        <module name="distribution-lock" />
         <module name="spring" />
         <module name="boot-dubbo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="boot-dubbo" target="1.8" />
+      <module name="distribution-lock" target="1.8" />
       <module name="jydemo" target="1.8" />
       <module name="jydemo-rest" target="1.8" />
       <module name="jydemo-service" target="1.8" />

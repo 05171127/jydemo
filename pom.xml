@@ -12,6 +12,7 @@
         <module>spring</module>
         <module>jydemo-service</module>
         <module>boot-dubbo</module>
+        <module>distribution-lock</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="355b3139-f59e-42e4-a16e-8b852872226a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jydemo-rest/src/test/java/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distribution-lock/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distribution-lock/src/main/java/RedisTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distribution-lock/src/main/java/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jydemo-rest/jydemo-rest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jydemo-rest/jydemo-rest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/test/java/com/jiuyescm/jydemo/ApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/test/java/com/jiuyescm/jydemo/ApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/websocket/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocket/websocket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/websocket/websocket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/websocket/target/" />
@@ -18,6 +17,7 @@
     <ignored path="$PROJECT_DIR$/spring/target/" />
     <ignored path="$PROJECT_DIR$/jydemo-service/target/" />
     <ignored path="$PROJECT_DIR$/boot-dubbo/target/" />
+    <ignored path="$PROJECT_DIR$/distribution-lock/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,100 +43,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/websocket/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jydemo-service/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring/src/test/java/com/jiuyescm/jydemo/reflect/Demo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring/src/test/java/com/jiuyescm/jydemo/ApplicationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring/src/test/java/com/jiuyescm/jydemo/Test.java">
+        <entry file="file://$PROJECT_DIR$/distribution-lock/src/main/java/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="193">
               <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="107" column="36" lean-forward="true" selection-start-line="107" selection-start-column="36" selection-end-line="107" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/distribution-lock/src/main/java/RedisTool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring/spring.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="144" column="42" selection-start-line="144" selection-start-column="42" selection-end-line="144" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring/src/test/java/com/jiuyescm/jydemo/propertycopy/UserEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" selection-start-line="4" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring/src/test/java/com/jiuyescm/jydemo/propertycopy/UserVo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring/src/test/java/com/jiuyescm/jydemo/reflect/Demo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="35" selection-start-line="35" selection-end-line="48" selection-end-column="5" />
-              <folding>
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
+                <element signature="docComment;method#tryGetDistributedLock#0;class#RedisTool#0" />
+                <element signature="docComment;method#releaseDistributedLock#0;class#RedisTool#0" />
               </folding>
             </state>
           </provider>
@@ -167,9 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jydemo-rest/src/main/resources/mybatis/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/jydemo-rest/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/jydemo-rest/src/main/java/com/jiuyescm/jydemo/Application.java" />
         <option value="$PROJECT_DIR$/jydemo-rest/src/main/java/com/jiuyescm/jydemo/entity/User.java" />
         <option value="$PROJECT_DIR$/jydemo-rest/src/main/java/com/jiuyescm/jydemo/entity/UserAddress.java" />
         <option value="$PROJECT_DIR$/jydemo-rest/src/main/java/com/jiuyescm/jydemo/vo/UserVo.java" />
@@ -218,6 +148,9 @@
         <option value="$PROJECT_DIR$/spring/src/test/java/com/jiuyescm/jydemo/propertycopy/UserVo.java" />
         <option value="$PROJECT_DIR$/spring/pom.xml" />
         <option value="$PROJECT_DIR$/spring/src/test/java/com/jiuyescm/jydemo/Test.java" />
+        <option value="$PROJECT_DIR$/distribution-lock/pom.xml" />
+        <option value="$PROJECT_DIR$/distribution-lock/src/main/java/RedisTool.java" />
+        <option value="$PROJECT_DIR$/distribution-lock/src/main/java/Test.java" />
       </list>
     </option>
   </component>
@@ -236,17 +169,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jydemo-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jydemo-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -261,13 +184,38 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="jydemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="jydemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="distribution-lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="distribution-lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="distribution-lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="distribution-lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jydemo" type="b2602c69:ProjectViewProjectNode" />
@@ -279,66 +227,11 @@
               <item name="jydemo" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="jydemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jydemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jydemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jydemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jydemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jydemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jydemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jydemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jydemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jydemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jiuyescm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jydemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jydemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jiuyescm" type="462c0819:PsiDirectoryNode" />
-              <item name="jydemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jydemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jydemo" type="462c0819:PsiDirectoryNode" />
-              <item name="websocket" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -381,57 +274,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test.test4">
-    <configuration name="Demo1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo1" />
-      <module name="jydemo-rest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jiuyescm.jydemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jiuyescm.jydemo" />
-      <option name="MAIN_CLASS_NAME" value="com.jiuyescm.jydemo.Test" />
+  <component name="RunManager" selected="JUnit.Test.test4 (1)">
+    <configuration name="Test.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="distribution-lock" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jiuyescm.jydemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jiuyescm.jydemo" />
-      <option name="MAIN_CLASS_NAME" value="com.jiuyescm.jydemo.Test" />
+    <configuration name="Test.test2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="distribution-lock" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jiuyescm.jydemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jiuyescm.jydemo" />
-      <option name="MAIN_CLASS_NAME" value="com.jiuyescm.jydemo.Test" />
+    <configuration name="Test.test3 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="distribution-lock" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test4 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="distribution-lock" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -455,11 +333,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test.test4 (1)" />
+        <item itemvalue="JUnit.Test.test2 (1)" />
+        <item itemvalue="JUnit.Test.test1 (1)" />
+        <item itemvalue="JUnit.Test.test3 (1)" />
         <item itemvalue="JUnit.Test.test4" />
-        <item itemvalue="JUnit.Test.test3" />
-        <item itemvalue="JUnit.Test.test2" />
-        <item itemvalue="JUnit.Test.test1" />
-        <item itemvalue="Application.Demo1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -483,37 +361,50 @@
       <workItem from="1577260046737" duration="705000" />
       <workItem from="1577340756559" duration="4995000" />
       <workItem from="1577423348961" duration="4876000" />
+      <workItem from="1577684073555" duration="7095000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_test1 - 2019.12.27 at 13h 26m 48s.xml">
-      <configuration name="Test.test1" configurationId="JUnit" />
+    <history-entry file="Test_test4_(1) - 2019.12.30 at 15h 11m 44s.xml">
+      <configuration name="Test.test4 (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test2 - 2019.12.27 at 13h 28m 08s.xml">
-      <configuration name="Test.test2" configurationId="JUnit" />
+    <history-entry file="Test_test1_(1) - 2019.12.30 at 15h 12m 08s.xml">
+      <configuration name="Test.test1 (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test1 - 2019.12.27 at 13h 35m 20s.xml">
-      <configuration name="Test.test1" configurationId="JUnit" />
+    <history-entry file="Test_test4_(1) - 2019.12.30 at 15h 12m 19s.xml">
+      <configuration name="Test.test4 (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test2 - 2019.12.27 at 13h 35m 50s.xml">
-      <configuration name="Test.test2" configurationId="JUnit" />
+    <history-entry file="Test_test4_(1) - 2019.12.30 at 15h 12m 35s.xml">
+      <configuration name="Test.test4 (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test3 - 2019.12.27 at 13h 43m 40s.xml">
-      <configuration name="Test.test3" configurationId="JUnit" />
+    <history-entry file="Test_test1_(1) - 2019.12.30 at 15h 14m 06s.xml">
+      <configuration name="Test.test1 (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test4 - 2019.12.27 at 13h 45m 30s.xml">
-      <configuration name="Test.test4" configurationId="JUnit" />
+    <history-entry file="Test_test2_(1) - 2019.12.30 at 15h 14m 14s.xml">
+      <configuration name="Test.test2 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_test1_(1) - 2019.12.30 at 15h 53m 32s.xml">
+      <configuration name="Test.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_test2_(1) - 2019.12.30 at 15h 54m 35s.xml">
+      <configuration name="Test.test2 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_test4_(1) - 2019.12.30 at 15h 56m 08s.xml">
+      <configuration name="Test.test4 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_test4_(1) - 2019.12.30 at 15h 56m 46s.xml">
+      <configuration name="Test.test4 (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70019000" />
+    <option name="totallyTimeSpent" value="77114000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="1358" y="-320" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30454546" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21824974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -524,7 +415,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.456621" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4280822" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -595,32 +486,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE.jar!/org/springframework/context/annotation/Scope.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jydemo-rest/src/main/java/com/jiuyescm/jydemo/cycledependency/BeanB.java" />
-    <entry file="file://$PROJECT_DIR$/jydemo-rest/src/main/java/com/jiuyescm/jydemo/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="29" column="71" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jydemo-rest/src/main/java/com/jiuyescm/jydemo/cycledependency/BeanA.java" />
     <entry file="file://$PROJECT_DIR$/jydemo-rest/src/main/java/com/jiuyescm/jydemo/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -724,14 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jydemo-rest/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="67" column="27" selection-start-line="57" selection-start-column="4" selection-end-line="67" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -850,14 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring/src/test/java/com/jiuyescm/jydemo/reflect/ConstructorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -899,30 +748,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/test/java/com/jiuyescm/jydemo/reflect/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="35" selection-start-line="35" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/websocket/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="486">
           <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jydemo-service/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -935,22 +765,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring/src/test/java/com/jiuyescm/jydemo/ApplicationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="297">
           <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/spring.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="144" column="42" selection-start-line="144" selection-start-column="42" selection-end-line="144" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -964,17 +783,104 @@
     <entry file="file://$PROJECT_DIR$/spring/src/test/java/com/jiuyescm/jydemo/propertycopy/UserVo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/test/java/com/jiuyescm/jydemo/reflect/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="35" selection-start-line="35" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jydemo-rest/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jydemo-service/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1552">
+          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/spring.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="145" column="21" selection-start-line="145" selection-start-column="21" selection-end-line="145" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distribution-lock/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring/src/test/java/com/jiuyescm/jydemo/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="541">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Connection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="222" column="18" selection-start-line="222" selection-start-column="18" selection-end-line="222" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="107" column="36" lean-forward="true" selection-start-line="107" selection-start-column="36" selection-end-line="107" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distribution-lock/src/main/java/RedisTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#tryGetDistributedLock#0;class#RedisTool#0" />
+            <element signature="docComment;method#releaseDistributedLock#0;class#RedisTool#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distribution-lock/src/main/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/boot-dubbo/boot-dubbo.iml" filepath="$PROJECT_DIR$/boot-dubbo/boot-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distribution-lock/distribution-lock.iml" filepath="$PROJECT_DIR$/distribution-lock/distribution-lock.iml" />
       <module fileurl="file://$PROJECT_DIR$/jydemo.iml" filepath="$PROJECT_DIR$/jydemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jydemo-rest/jydemo-rest.iml" filepath="$PROJECT_DIR$/jydemo-rest/jydemo-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/jydemo-service/jydemo-service.iml" filepath="$PROJECT_DIR$/jydemo-service/jydemo-service.iml" />
